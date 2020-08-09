@@ -2,9 +2,7 @@
   "name": "tailwind-ppx-test",
   "version": "0.1.0",
   "scripts": {
-    "build": "bsb -make-world",
-    "start": "bsb -make-world -w",
-    "clean": "bsb -clean-world"
+    "build": "rm -rf .tailwind_ppx_cache && bsb -clean-world && bsb -make-world"
   },
   "keywords": [
     "BuckleScript"
@@ -16,7 +14,6 @@
     "bs-platform": "^8.2.0"
   },
   "dependencies": {
-    "re-formality": "^4.0.0-beta.8",
     "react-dom": "^16.13.1",
     "reason": "^3.3.4",
     "reason-react": "0.9.1"

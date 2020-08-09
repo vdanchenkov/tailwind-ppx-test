@@ -3,43 +3,7 @@
   "version": "0.1.0",
   "sources": [
     {
-      "dir": "src/0",
-      "subdirs": true
-    },
-    {
-      "dir": "src/1",
-      "subdirs": true
-    },
-    {
-      "dir": "src/2",
-      "subdirs": true
-    },
-    {
-      "dir": "src/3",
-      "subdirs": true
-    },
-    {
-      "dir": "src/4",
-      "subdirs": true
-    },
-    {
-      "dir": "src/5",
-      "subdirs": true
-    },
-    {
-      "dir": "src/6",
-      "subdirs": true
-    },
-    {
-      "dir": "src/7",
-      "subdirs": true
-    },
-    {
-      "dir": "src/8",
-      "subdirs": true
-    },
-    {
-      "dir": "src/9",
+      "dir": "src",
       "subdirs": true
     }
   ],
@@ -48,12 +12,10 @@
     "in-source": true
   },
   "suffix": ".bs.js",
-  "bs-dependencies": ["reason-react"],
-  "ppx-flags": ["@dylanirlbeck/tailwind-ppx/tailwind-ppx", "re-formality/ppx"],
+  "ppx-flags": ["@dylanirlbeck/tailwind-ppx/tailwind-ppx"],
   "warnings": {
     "error": "+101"
   },
   "bsc-flags": ["-bs-super-errors"],
-  "reason": { "react-jsx": 3 },
   "refmt": 3
 }
