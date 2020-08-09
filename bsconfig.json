@@ -1,21 +1,59 @@
 {
   "name": "tailwind-ppx-test",
   "version": "0.1.0",
-  "sources": {
-    "dir": "src",
-    "subdirs": true
-  },
+  "sources": [
+    {
+      "dir": "src/0",
+      "subdirs": true
+    },
+    {
+      "dir": "src/1",
+      "subdirs": true
+    },
+    {
+      "dir": "src/2",
+      "subdirs": true
+    },
+    {
+      "dir": "src/3",
+      "subdirs": true
+    },
+    {
+      "dir": "src/4",
+      "subdirs": true
+    },
+    {
+      "dir": "src/5",
+      "subdirs": true
+    },
+    {
+      "dir": "src/6",
+      "subdirs": true
+    },
+    {
+      "dir": "src/7",
+      "subdirs": true
+    },
+    {
+      "dir": "src/8",
+      "subdirs": true
+    },
+    {
+      "dir": "src/9",
+      "subdirs": true
+    }
+  ],
   "package-specs": {
     "module": "commonjs",
     "in-source": true
   },
   "suffix": ".bs.js",
   "bs-dependencies": ["reason-react"],
-  "ppx-flags": ["@dylanirlbeck/tailwind-ppx/tailwind-ppx"],
+  "ppx-flags": ["@dylanirlbeck/tailwind-ppx/tailwind-ppx", "re-formality/ppx"],
   "warnings": {
     "error": "+101"
   },
+  "bsc-flags": ["-bs-super-errors"],
   "reason": { "react-jsx": 3 },
-  "namespace": true,
   "refmt": 3
 }
