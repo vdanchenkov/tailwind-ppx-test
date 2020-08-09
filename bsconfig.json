@@ -1,0 +1,21 @@
+{
+  "name": "tailwind-ppx-test",
+  "version": "0.1.0",
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": ["reason-react"],
+  "ppx-flags": ["@dylanirlbeck/tailwind-ppx/tailwind-ppx"],
+  "warnings": {
+    "error": "+101"
+  },
+  "reason": { "react-jsx": 3 },
+  "namespace": true,
+  "refmt": 3
+}
